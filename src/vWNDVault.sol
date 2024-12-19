@@ -10,7 +10,7 @@ contract vWNDVault {
   ERC20 public vwnd;
   IVUSD public vusd;
 
-  uint256 constant yield = 3e14; // yield per second 0.0000003
+  uint256 constant yield = 3e14; // yield per second 0.0003
   uint256 public vaultCreationTime;
   uint256 public vWNDPriceAtCreation;
                           
